@@ -5,6 +5,11 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import java.text.DecimalFormat;
 
+/**
+ * @author Febrina Anastasha 1772006
+ * Class Kellum
+ */
+
 public class Kellum {
     public TextField txtLength;
     public TextField txtWidth;
@@ -17,6 +22,10 @@ public class Kellum {
     public String bangunRuang="";
     DecimalFormat df2 = new DecimalFormat(".##");
 
+    /**
+     * @author Febrina Anastasha 1772006
+     * Class Square
+     */
 
     public void Square(ActionEvent actionEvent) {
         txtRadius.setDisable(true);
@@ -27,6 +36,11 @@ public class Kellum {
 
     }
 
+    /**
+     * @author Febrina Anastasha 1772006
+     * Class Ball
+     */
+
     public void Ball(ActionEvent actionEvent) {
         txtWidth.setDisable(true);
         txtHeight.setDisable(true);
@@ -35,6 +49,12 @@ public class Kellum {
         bangunRuang = "Ball";
 
     }
+
+    /**
+     * @author Febrina Anastasha 1772006
+     * Class Tube
+     */
+
     public void Tube(ActionEvent actionEvent) {
         txtWidth.setDisable(true);
         txtLength.setDisable(true);
@@ -43,6 +63,11 @@ public class Kellum {
         bangunRuang = "Tube";
 
     }
+
+    /**
+     * @author Febrina Anastasha 1772006
+     * Class Submit
+     */
 
     public void Submit(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
